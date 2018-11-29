@@ -3,13 +3,12 @@
     "react-app",
     "airbnb",
     "plugin:prettier/recommended",
-    "prettier/react",
-    "prettier/flowtype"
+    "prettier/react"
   ],
   "plugins": ["prettier", "eslint-plugin-react", "react", "jsx-a11y"],
   "parser": "babel-eslint",
   "parserOptions": {
-    "ecmaVersion": 2017,
+    "ecmaVersion": 2016,
     "sourceType": "module",
     "ecmaFeatures": {
       "jsx": true
@@ -48,6 +47,14 @@
           "every": ["nesting", "id"]
         },
         "allowChildren": false
+      }
+    ],
+    "jsx-a11y/anchor-is-valid": [
+      "error",
+      {
+        "components": ["Link"],
+        "specialLink": ["hrefLeft", "hrefRight"],
+        "aspects": ["noHref", "invalidHref", "preferButton"]
       }
     ],
     "react/no-unused-prop-types": [1],
