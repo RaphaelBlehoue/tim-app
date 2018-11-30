@@ -1,6 +1,6 @@
 import React from "react";
 
-const Minicart = () => (
+const MiniCart = () => (
   <div className="mini-cart-wrap">
     <div className="mini-cart-top">
       <button className="close-cart" type="submit">
@@ -50,4 +50,4 @@ const Minicart = () => (
   </div>
 );
 
-export default Minicart;
+export default MiniCart;

@@ -1,6 +1,6 @@
 import React from "react";
 
-const Shoppinglink = () => (
+const ShoppingLink = () => (
   <div className="col order-2 order-lg-12 order-xl-12">
     <div className="header-shop-links">
       <a href="/" className="header-compare">
@@ -18,4 +18,4 @@ const Shoppinglink = () => (
   </div>
 );
 
-export default Shoppinglink;
+export default ShoppingLink;

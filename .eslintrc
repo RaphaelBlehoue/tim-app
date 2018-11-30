@@ -85,5 +85,12 @@
     "react/require-default-props": 0,
     "react/require-extension": 0,
     "react/self-closing-comp": 0
+  },
+  "settings": {
+    "import/resolver": {
+      "node": {
+        "paths": ["./src"]
+      }
+    }
   }
 }

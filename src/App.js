@@ -1,18 +1,11 @@
 import React from "react";
-import Headertop from "./Component/NavBar/Headertop";
-import Headerbottom from "./Component/NavBar/Headerbottom";
-import Headercategory from "./Component/NavBar/Headercategory";
-import Minicart from "./Component/BeforeBanner/Minicart";
+import Layout from "Component/Template/Layout";
 
 const App = () => (
   <React.Fragment>
-    <div className="header-section section">
-      <Headertop />
-      <Headerbottom />
-      <Headercategory />
-    </div>
-    <Minicart />
-    <div className="cart-overlay" />
+    <Layout>
+      <h1>Test</h1>
+    </Layout>
   </React.Fragment>
 );
 

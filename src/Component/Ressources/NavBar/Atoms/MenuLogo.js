@@ -1,8 +1,8 @@
 import React from "react";
-import logo from "../../../assets/images/logo.png";
-import logolight from "../../../assets/images/logo-light.png";
+import logo from "assets/images/logo.png";
+import logolight from "assets/images/logo-light.png";
 
-const Menulogo = () => (
+const MenuLogo = () => (
   <div className="col mt-15 mb-15">
     <div className="header-logo">
       <a href="/">
@@ -20,4 +20,4 @@ const Menulogo = () => (
   </div>
 );
 
-export default Menulogo;
+export default MenuLogo;

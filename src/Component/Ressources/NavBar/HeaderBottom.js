@@ -3,7 +3,7 @@ import Menulogo from "./Atoms/Menulogo";
 import Menu from "./Atoms/Menu";
 import Shoppinglink from "./Atoms/Shoppinglink";
 
-const Headerbottom = () => (
+const HeaderBottom = () => (
   <div className="header-bottom header-bottom-one header-sticky">
     <div className="container">
       <div className="row align-items-center justify-content-between">
@@ -16,4 +16,4 @@ const Headerbottom = () => (
   </div>
 );
 
-export default Headerbottom;
+export default HeaderBottom;

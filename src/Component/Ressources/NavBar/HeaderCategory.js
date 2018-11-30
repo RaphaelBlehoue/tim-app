@@ -1,6 +1,6 @@
 import React from "react";
 
-const Headercategory = () => (
+const HeaderCategory = () => (
   <div className="header-category-section">
     <div className="container">
       <div className="row">
@@ -40,4 +40,4 @@ const Headercategory = () => (
   </div>
 );
 
-export default Headercategory;
+export default HeaderCategory;

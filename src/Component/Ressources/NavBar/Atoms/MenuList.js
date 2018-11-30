@@ -1,6 +1,6 @@
 import React from "react";
 
-const Menulist = () => (
+const MenuList = () => (
   <nav>
     <ul>
       <li className="active">
@@ -104,4 +104,4 @@ const Menulist = () => (
   </nav>
 );
 
-export default Menulist;
+export default MenuList;

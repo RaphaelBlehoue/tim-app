@@ -1,8 +1,8 @@
 import React from "react";
-import marker from "../../assets/images/icons/marker.png";
-import car from "../../assets/images/icons/car.png";
+import marker from "assets/images/icons/marker.png";
+import car from "assets/images/icons/car.png";
 
-const Headertop = () => (
+const HeaderTop = () => (
   <div className="header-top header-top-one header-top-border pt-10 pb-10">
     <div className="container">
       <div className="row align-items-center justify-content-between">
@@ -62,4 +62,4 @@ const Headertop = () => (
   </div>
 );
 
-export default Headertop;
+export default HeaderTop;
