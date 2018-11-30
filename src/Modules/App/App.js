@@ -1,7 +1,7 @@
 import React from "react";
-import Layout from "Component/Template/Layout";
-import HeroContainer from "Component/Ressources/Hero/HeroContainer";
-import Banner from "Component/Ressources/Banner/Banner";
+import Layout from "Layout/Layout";
+import HeroContainer from "Shared/Component/Hero/HeroContainer";
+import Banner from "Shared/Component/Banner/Banner";
 
 const App = () => (
   <React.Fragment>

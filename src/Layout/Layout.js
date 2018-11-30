@@ -15,7 +15,11 @@ const Layout = ({ children }) => (
 );
 
 Layout.propTypes = {
-  children: PropTypes.oneOfType([PropTypes.object, PropTypes.string])
+  children: PropTypes.oneOfType([
+    PropTypes.object,
+    PropTypes.string,
+    PropTypes.node
+  ])
 };
 
 export default Layout;
