@@ -1,15 +1,15 @@
 import React from "react";
-import Menulogo from "./Atoms/Menulogo";
+import MenuLogo from "./Atoms/MenuLogo";
 import Menu from "./Atoms/Menu";
-import Shoppinglink from "./Atoms/Shoppinglink";
+import ShoppingLink from "./Atoms/ShoppingLink";
 
 const HeaderBottom = () => (
   <div className="header-bottom header-bottom-one header-sticky">
     <div className="container">
       <div className="row align-items-center justify-content-between">
-        <Menulogo />
+        <MenuLogo />
         <Menu />
-        <Shoppinglink />
+        <ShoppingLink />
         <div className="mobile-menu order-12 d-block d-lg-none col" />
       </div>
     </div>

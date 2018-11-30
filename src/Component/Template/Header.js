@@ -1,13 +1,13 @@
 import React from "react";
-import Headertop from "Component/Ressources/NavBar/Headertop";
-import Headerbottom from "Component/Ressources/NavBar/Headerbottom";
-import Headercategory from "Component/Ressources/NavBar/Headercategory";
+import HeaderTop from "Component/Ressources/NavBar/HeaderTop";
+import HeaderBottom from "Component/Ressources/NavBar/HeaderBottom";
+import HeaderCategory from "Component/Ressources/NavBar/HeaderCategory";
 
 const Header = () => (
   <div className="header-section section">
-    <Headertop />
-    <Headerbottom />
-    <Headercategory />
+    <HeaderTop />
+    <HeaderBottom />
+    <HeaderCategory />
   </div>
 );
 
