@@ -1,6 +1,6 @@
 import React from "react";
-import TopFooter from "Shared/Component/Footer/TopFooter";
-import BottomFooter from "Shared/Component/Footer/BottomFooter";
+import TopFooter from "./Footer/TopFooter";
+import BottomFooter from "./Footer/BottomFooter";
 
 const Footer = () => (
   <div className="footer-section section bg-ivory">

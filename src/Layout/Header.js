@@ -1,7 +1,7 @@
 import React from "react";
-import HeaderTop from "Shared/Component/NavBar/HeaderTop";
-import HeaderBottom from "Shared/Component/NavBar/HeaderBottom";
-import HeaderCategory from "Shared/Component/NavBar/HeaderCategory";
+import HeaderTop from "./NavBar/HeaderTop";
+import HeaderBottom from "./NavBar/HeaderBottom";
+import HeaderCategory from "./NavBar/HeaderCategory";
 
 const Header = () => (
   <div className="header-section section">
