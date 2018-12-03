@@ -1,15 +1,271 @@
 import React from "react";
 import Layout from "Layout/Layout";
-import HeroContainer from "Shared/Component/Hero/HeroContainer";
-import Banner from "Shared/Component/Banner/Banner";
 
 const App = () => (
-  <React.Fragment>
+  <>
     <Layout>
-      <HeroContainer />
-      <Banner />
+      <p>Page body</p>
+      <p>
+        {" "}
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda
+        aliquam doloremque, corporis exercitationem dolorum iste ad perspiciatis
+        eveniet, nam velit minima recusandae nisi debitis atque asperiores, cum
+        suscipit consequatur eum?{" "}
+      </p>
+      <p>
+        {" "}
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda
+        aliquam doloremque, corporis exercitationem dolorum iste ad perspiciatis
+        eveniet, nam velit minima recusandae nisi debitis atque asperiores, cum
+        suscipit consequatur eum?{" "}
+      </p>
+      <p>
+        {" "}
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda
+        aliquam doloremque, corporis exercitationem dolorum iste ad perspiciatis
+        eveniet, nam velit minima recusandae nisi debitis atque asperiores, cum
+        suscipit consequatur eum?{" "}
+      </p>
+      <p>
+        {" "}
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda
+        aliquam doloremque, corporis exercitationem dolorum iste ad perspiciatis
+        eveniet, nam velit minima recusandae nisi debitis atque asperiores, cum
+        suscipit consequatur eum?{" "}
+      </p>
+      <p>
+        {" "}
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda
+        aliquam doloremque, corporis exercitationem dolorum iste ad perspiciatis
+        eveniet, nam velit minima recusandae nisi debitis atque asperiores, cum
+        suscipit consequatur eum?{" "}
+      </p>
+      <p>
+        {" "}
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda
+        aliquam doloremque, corporis exercitationem dolorum iste ad perspiciatis
+        eveniet, nam velit minima recusandae nisi debitis atque asperiores, cum
+        suscipit consequatur eum?{" "}
+      </p>
+      <p>
+        {" "}
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda
+        aliquam doloremque, corporis exercitationem dolorum iste ad perspiciatis
+        eveniet, nam velit minima recusandae nisi debitis atque asperiores, cum
+        suscipit consequatur eum?{" "}
+      </p>
+      <p>
+        {" "}
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda
+        aliquam doloremque, corporis exercitationem dolorum iste ad perspiciatis
+        eveniet, nam velit minima recusandae nisi debitis atque asperiores, cum
+        suscipit consequatur eum?{" "}
+      </p>
+      <p>
+        {" "}
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda
+        aliquam doloremque, corporis exercitationem dolorum iste ad perspiciatis
+        eveniet, nam velit minima recusandae nisi debitis atque asperiores, cum
+        suscipit consequatur eum?{" "}
+      </p>
+      <p>
+        {" "}
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda
+        aliquam doloremque, corporis exercitationem dolorum iste ad perspiciatis
+        eveniet, nam velit minima recusandae nisi debitis atque asperiores, cum
+        suscipit consequatur eum?{" "}
+      </p>
+      <p>
+        {" "}
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda
+        aliquam doloremque, corporis exercitationem dolorum iste ad perspiciatis
+        eveniet, nam velit minima recusandae nisi debitis atque asperiores, cum
+        suscipit consequatur eum?{" "}
+      </p>
+      <p>
+        {" "}
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda
+        aliquam doloremque, corporis exercitationem dolorum iste ad perspiciatis
+        eveniet, nam velit minima recusandae nisi debitis atque asperiores, cum
+        suscipit consequatur eum?{" "}
+      </p>
+      <p>
+        {" "}
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda
+        aliquam doloremque, corporis exercitationem dolorum iste ad perspiciatis
+        eveniet, nam velit minima recusandae nisi debitis atque asperiores, cum
+        suscipit consequatur eum?{" "}
+      </p>
+      <p>
+        {" "}
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda
+        aliquam doloremque, corporis exercitationem dolorum iste ad perspiciatis
+        eveniet, nam velit minima recusandae nisi debitis atque asperiores, cum
+        suscipit consequatur eum?{" "}
+      </p>
+      <p>
+        {" "}
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda
+        aliquam doloremque, corporis exercitationem dolorum iste ad perspiciatis
+        eveniet, nam velit minima recusandae nisi debitis atque asperiores, cum
+        suscipit consequatur eum?{" "}
+      </p>
+      <p>
+        {" "}
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda
+        aliquam doloremque, corporis exercitationem dolorum iste ad perspiciatis
+        eveniet, nam velit minima recusandae nisi debitis atque asperiores, cum
+        suscipit consequatur eum?{" "}
+      </p>
+      <p>
+        {" "}
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda
+        aliquam doloremque, corporis exercitationem dolorum iste ad perspiciatis
+        eveniet, nam velit minima recusandae nisi debitis atque asperiores, cum
+        suscipit consequatur eum?{" "}
+      </p>
+      <p>
+        {" "}
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda
+        aliquam doloremque, corporis exercitationem dolorum iste ad perspiciatis
+        eveniet, nam velit minima recusandae nisi debitis atque asperiores, cum
+        suscipit consequatur eum?{" "}
+      </p>
+      <p>
+        {" "}
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda
+        aliquam doloremque, corporis exercitationem dolorum iste ad perspiciatis
+        eveniet, nam velit minima recusandae nisi debitis atque asperiores, cum
+        suscipit consequatur eum?{" "}
+      </p>
+      <p>
+        {" "}
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda
+        aliquam doloremque, corporis exercitationem dolorum iste ad perspiciatis
+        eveniet, nam velit minima recusandae nisi debitis atque asperiores, cum
+        suscipit consequatur eum?{" "}
+      </p>
+      <p>
+        {" "}
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda
+        aliquam doloremque, corporis exercitationem dolorum iste ad perspiciatis
+        eveniet, nam velit minima recusandae nisi debitis atque asperiores, cum
+        suscipit consequatur eum?{" "}
+      </p>
+      <p>
+        {" "}
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda
+        aliquam doloremque, corporis exercitationem dolorum iste ad perspiciatis
+        eveniet, nam velit minima recusandae nisi debitis atque asperiores, cum
+        suscipit consequatur eum?{" "}
+      </p>
+      <p>
+        {" "}
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda
+        aliquam doloremque, corporis exercitationem dolorum iste ad perspiciatis
+        eveniet, nam velit minima recusandae nisi debitis atque asperiores, cum
+        suscipit consequatur eum?{" "}
+      </p>
+      <p>
+        {" "}
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda
+        aliquam doloremque, corporis exercitationem dolorum iste ad perspiciatis
+        eveniet, nam velit minima recusandae nisi debitis atque asperiores, cum
+        suscipit consequatur eum?{" "}
+      </p>
+      <p>
+        {" "}
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda
+        aliquam doloremque, corporis exercitationem dolorum iste ad perspiciatis
+        eveniet, nam velit minima recusandae nisi debitis atque asperiores, cum
+        suscipit consequatur eum?{" "}
+      </p>
+      <p>
+        {" "}
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda
+        aliquam doloremque, corporis exercitationem dolorum iste ad perspiciatis
+        eveniet, nam velit minima recusandae nisi debitis atque asperiores, cum
+        suscipit consequatur eum?{" "}
+      </p>
+      <p>
+        {" "}
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda
+        aliquam doloremque, corporis exercitationem dolorum iste ad perspiciatis
+        eveniet, nam velit minima recusandae nisi debitis atque asperiores, cum
+        suscipit consequatur eum?{" "}
+      </p>
+      <p>
+        {" "}
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda
+        aliquam doloremque, corporis exercitationem dolorum iste ad perspiciatis
+        eveniet, nam velit minima recusandae nisi debitis atque asperiores, cum
+        suscipit consequatur eum?{" "}
+      </p>
+      <p>
+        {" "}
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda
+        aliquam doloremque, corporis exercitationem dolorum iste ad perspiciatis
+        eveniet, nam velit minima recusandae nisi debitis atque asperiores, cum
+        suscipit consequatur eum?{" "}
+      </p>
+      <p>
+        {" "}
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda
+        aliquam doloremque, corporis exercitationem dolorum iste ad perspiciatis
+        eveniet, nam velit minima recusandae nisi debitis atque asperiores, cum
+        suscipit consequatur eum?{" "}
+      </p>
+      <p>
+        {" "}
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda
+        aliquam doloremque, corporis exercitationem dolorum iste ad perspiciatis
+        eveniet, nam velit minima recusandae nisi debitis atque asperiores, cum
+        suscipit consequatur eum?{" "}
+      </p>
+      <p>
+        {" "}
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda
+        aliquam doloremque, corporis exercitationem dolorum iste ad perspiciatis
+        eveniet, nam velit minima recusandae nisi debitis atque asperiores, cum
+        suscipit consequatur eum?{" "}
+      </p>
+      <p>
+        {" "}
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda
+        aliquam doloremque, corporis exercitationem dolorum iste ad perspiciatis
+        eveniet, nam velit minima recusandae nisi debitis atque asperiores, cum
+        suscipit consequatur eum?{" "}
+      </p>
+      <p>
+        {" "}
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda
+        aliquam doloremque, corporis exercitationem dolorum iste ad perspiciatis
+        eveniet, nam velit minima recusandae nisi debitis atque asperiores, cum
+        suscipit consequatur eum?{" "}
+      </p>
+      <p>
+        {" "}
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda
+        aliquam doloremque, corporis exercitationem dolorum iste ad perspiciatis
+        eveniet, nam velit minima recusandae nisi debitis atque asperiores, cum
+        suscipit consequatur eum?{" "}
+      </p>
+      <p>
+        {" "}
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda
+        aliquam doloremque, corporis exercitationem dolorum iste ad perspiciatis
+        eveniet, nam velit minima recusandae nisi debitis atque asperiores, cum
+        suscipit consequatur eum?{" "}
+      </p>
+      <p>
+        {" "}
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda
+        aliquam doloremque, corporis exercitationem dolorum iste ad perspiciatis
+        eveniet, nam velit minima recusandae nisi debitis atque asperiores, cum
+        suscipit consequatur eum?{" "}
+      </p>
     </Layout>
-  </React.Fragment>
+  </>
 );
 
 export default App;
