@@ -1,4 +1,5 @@
 import React from "react";
+import SearchSelect from "./SearchSelect";
 
 const SearchNav = () => (
   <div className="col order-12 order-xs-12 order-lg-2 mt-10 mb-10">
@@ -7,15 +8,7 @@ const SearchNav = () => (
         <div className="input">
           <input type="text" />
         </div>
-        <div className="select">
-          <select className="nice-select">
-            <option>All Categories</option>
-            <option>Mobile</option>
-            <option>Computer</option>
-            <option>Laptop</option>
-            <option>Camera</option>
-          </select>
-        </div>
+        <SearchSelect />
         <div className="submit">
           <button type="submit">
             <i className="icofont icofont-search-alt-1" />

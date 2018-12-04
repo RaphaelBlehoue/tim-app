@@ -5,6 +5,7 @@ import { Provider } from "react-redux";
 import rootReducer from "Modules/App/rootReducer";
 import middleware from "Store/configStore";
 import "assets/main";
+import "global_assets/mainLayout";
 import App from "Modules/App/App";
 
 const store = createStore(rootReducer, middleware);

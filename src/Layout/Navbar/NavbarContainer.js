@@ -29,9 +29,6 @@ class NavbarContainer extends Component {
         isSticky: false
       });
     }
-
-    console.log("pageYOffset", window.scrollY);
-    console.log("isSticky", this.state.isSticky);
   };
 
   render() {
