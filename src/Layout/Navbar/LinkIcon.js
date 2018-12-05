@@ -4,7 +4,7 @@ import PropTypes from "prop-types";
 const LinkIcon = ({ icon, title, links }) => (
   <>
     <a href={links}>
-      <img src={icon} alt={title} />
+      <img src={icon} alt={title} className="mr-2 ml-2" />
       <span>{title}</span>
     </a>
   </>
