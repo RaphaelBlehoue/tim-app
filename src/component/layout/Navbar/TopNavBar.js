@@ -1,6 +1,6 @@
 import React from "react";
-import logo from "global_assets/images/logo_new.svg";
-import MobileNav from "Layout/Navbar/MobileNav";
+import logo from "styles/global_assets/images/logo_new.svg";
+import MobileNav from "./MobileNav";
 
 const TopNavBar = () => (
   <div className="navbar navbar-expand-md navbar-light navbar-sticky">

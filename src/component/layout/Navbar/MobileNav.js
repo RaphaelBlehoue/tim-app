@@ -1,6 +1,6 @@
 import React from "react";
-import SearchBar from "Layout/SearchBar";
-import NavItem from "Layout/Navbar/NavItem";
+import SearchBar from "../SearchBar";
+import NavItem from "./NavItem";
 
 const MobileNav = () => (
   <div className="collapse navbar-collapse" id="navbar-mobile">
@@ -9,6 +9,7 @@ const MobileNav = () => (
         link="/"
         classNamer="navbar-nav-link sidebar-control sidebar-main-toggle d-none d-md-block mt-2"
         icon="icon-paragraph-justify3"
+        hasCliqued
       />
       <SearchBar />
     </ul>

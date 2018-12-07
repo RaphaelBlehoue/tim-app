@@ -1,7 +1,7 @@
 import React from "react";
 
 const SideBar = () => (
-  <div className="sidebar sidebar-light sidebar-main sidebar-expand-md overlay">
+  <div className="sidebar sidebar-light sidebar-main sidebar-expand-md">
     <div className="sidebar-mobile-toggler text-center">
       <a href="/" className="sidebar-mobile-main-toggle">
         <i className="icon-arrow-left8" />

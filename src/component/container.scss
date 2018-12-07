@@ -1,0 +1,25 @@
+.container-carousel {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+@media (min-width: 576px) {
+    .container-carousel {
+        max-width: 540px;
+    }
+}
+
+@media (min-width: 768px) {
+    .container-carousel {
+        max-width: 720px;
+    }
+}
+
+@media (min-width: 992px) {
+    .container-carousel {
+        max-width: 940px;
+    }
+}

@@ -1,8 +1,8 @@
 import React from "react";
-import LinkIcon from "Layout/Navbar/LinkIcon";
-import marker from "assets/images/icons/marker.png";
-import car from "assets/images/icons/car.png";
-import NavItem from "Layout/Navbar/NavItem";
+import marker from "styles/assets/images/icons/marker.png";
+import car from "styles/assets/images/icons/car.png";
+import NavItem from "./NavItem";
+import LinkIcon from "./LinkIcon";
 
 const TopNav = () => (
   <div className="navbar navbar-expand-md navbar-dark">

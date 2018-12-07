@@ -1,4 +1,5 @@
 import React from "react";
+
 const SearchBar = () => (
   <form className="mt-2 ml-2">
     <div className="form-group">

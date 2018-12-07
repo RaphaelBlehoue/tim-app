@@ -1,6 +1,7 @@
 import React from "react";
 import PropTypes from "prop-types";
-import ProductComponent from "Component/ProductComponent";
+import ProductComponent from "./ProductComponent";
+import "./container.scss";
 
 const CollectionComponent = ({ dataTitle, Title, ClassNamer, products }) => (
   <div className="product-section section mb-60">

@@ -1,8 +1,9 @@
 import React from "react";
 import _ from "lodash";
-import Layout from "Layout/Layout";
-import CollectionComponent from "Component/CollectionComponent";
-import ImgProduct from "assets/images/product/product-5.png";
+import Layout from "component/layout/Layout";
+import CollectionComponent from "component/CollectionComponent";
+import ImgProduct from "styles/assets/images/product/product-5.png";
+import CollectionCarouselComponent from "component/CollectionCarouselComponent";
 
 const products = [
   {
@@ -71,6 +72,12 @@ const App = () => (
                 products={products}
                 Title="Recommandation"
                 dataTitle="Meilleurs Ventes"
+              />
+              <CollectionCarouselComponent
+                products={products}
+                Title="Carousel"
+                dataTitle="Best Carousel"
+                isCarousel
               />
             </div>
           </div>
