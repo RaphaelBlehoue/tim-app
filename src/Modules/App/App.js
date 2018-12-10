@@ -1,9 +1,9 @@
 import React from "react";
 import _ from "lodash";
-import Layout from "component/layout/Layout";
-import CollectionComponent from "component/CollectionComponent";
+import Layout from "Component/layout/Layout";
+import CollectionComponent from "Component/CollectionComponent";
 import ImgProduct from "styles/assets/images/product/product-5.png";
-import CollectionCarouselComponent from "component/CollectionCarouselComponent";
+import CollectionCarouselComponent from "Component/CollectionCarouselComponent";
 
 const products = [
   {

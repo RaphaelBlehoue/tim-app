@@ -4,12 +4,26 @@ import PropTypes from "prop-types";
 import Slider from "react-slick";
 import ProductComponent from "./ProductComponent";
 
+const nextArrow = (
+  <button type="button" className="slick-prev">
+    <i className="icofont icofont-long-arrow-right" />
+  </button>
+);
+
+const prevArrow = (
+  <button type="button" className="slick-next">
+    <i className="icofont icofont-long-arrow-left" />
+  </button>
+);
+
 const settings = {
   arrows: true,
   dots: false,
   autoplay: false,
   infinite: true,
   slidesToShow: 4,
+  prevArrow,
+  nextArrow,
   responsive: [
     {
       breakpoint: 1199,

@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { connect } from "react-redux";
-import { openSideBar, closeSideBar } from "modules/UI/UIActions";
+import { openSideBar, closeSideBar } from "Modules/UI/UIActions";
 import PropTypes from "prop-types";
 
 class NavItem extends Component {

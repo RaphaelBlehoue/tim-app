@@ -1,6 +1,6 @@
 import { combineReducers } from "redux";
-import authReducer from "modules/Auth/authReducer";
-import UIReducer from "modules/UI/UIReducer";
+import authReducer from "Modules/Auth/authReducer";
+import UIReducer from "Modules/UI/UIReducer";
 
 export default combineReducers({
   auth: authReducer,
