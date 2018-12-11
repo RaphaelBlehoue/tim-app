@@ -2,6 +2,8 @@ import React from "react";
 import { connect } from "react-redux";
 import PropTypes from "prop-types";
 import Slider from "react-slick";
+import BannerComponent from "Component/BannerComponent";
+import ImgPath from "styles/assets/images/banner/banner-3.jpg";
 import ProductComponent from "./ProductComponent";
 
 const nextArrow = (
@@ -59,34 +61,44 @@ const CollectionCarouselComponent = ({
   Title,
   products,
   isCarousel,
-  isOpen
+  isOpen,
+  hasBanner
 }) => (
-  <div className="product-section section mb-70">
-    <div className={isOpen ? "container-carousel" : "container"}>
-      <div className="row">
-        <div className="col-12 mb-40">
-          <div className="section-title-one" data-title={dataTitle}>
-            <h1>{Title}</h1>
+  <>
+    {hasBanner ? (
+      <BannerComponent
+        bannerSectionClassPadding="mb-90"
+        ImgPath={ImgPath}
+        ImgTitle="Banner component"
+      />
+    ) : null}
+    <div className="product-section section mb-70">
+      <div className={isOpen ? "container-carousel" : "container"}>
+        <div className="row">
+          <div className="col-12 mb-40">
+            <div className="section-title-one" data-title={dataTitle}>
+              <h1>{Title}</h1>
+            </div>
           </div>
-        </div>
-        <div className="col-12">
-          <div className="product-slider-wrap product-slider-arrow-one">
-            <div className="product-slider product-slider-4">
-              <Slider {...settings}>
-                {products.map(product => (
-                  <ProductComponent
-                    key={product.Id}
-                    product={product}
-                    isCarousel={isCarousel}
-                  />
-                ))}
-              </Slider>
+          <div className="col-12">
+            <div className="product-slider-wrap product-slider-arrow-one">
+              <div className="product-slider product-slider-4">
+                <Slider {...settings}>
+                  {products.map(product => (
+                    <ProductComponent
+                      key={product.Id}
+                      product={product}
+                      isCarousel={isCarousel}
+                    />
+                  ))}
+                </Slider>
+              </div>
             </div>
           </div>
         </div>
       </div>
     </div>
-  </div>
+  </>
 );
 
 const mapStateToProps = state => ({
@@ -98,7 +110,12 @@ CollectionCarouselComponent.propTypes = {
   Title: PropTypes.string,
   dataTitle: PropTypes.string,
   isCarousel: PropTypes.bool,
-  isOpen: PropTypes.bool
+  isOpen: PropTypes.bool,
+  hasBanner: PropTypes.bool
+};
+
+CollectionCarouselComponent.defaultProp = {
+  hasBanner: false
 };
 
 export default connect(

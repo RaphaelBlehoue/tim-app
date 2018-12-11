@@ -6,23 +6,6 @@ import PropTypes from "prop-types";
 class NavItem extends Component {
   state = { isOpenSide: false };
 
-  static propTypes = {
-    icon: PropTypes.any,
-    title: PropTypes.string,
-    subtitle: PropTypes.string,
-    classNamer: PropTypes.string,
-    link: PropTypes.any,
-    hasBadge: PropTypes.bool,
-    BadgeValue: PropTypes.number,
-    hasCliqued: PropTypes.bool,
-    openSideBar: PropTypes.func,
-    closeSideBar: PropTypes.func
-  };
-
-  static defaultProps = {
-    classNamer: "navbar-nav-link"
-  };
-
   ToggleClick = e => {
     e.preventDefault();
     this.setState(state => ({
@@ -33,13 +16,14 @@ class NavItem extends Component {
   };
 
   handClick = state => {
+    const { openSideBar, closeSideBar } = this.props;
     switch (state) {
       case false:
         document.body.classList.remove("sidebar-xs");
-        return this.props.openSideBar();
+        return openSideBar();
       case true:
         document.body.classList.add("sidebar-xs");
-        return this.props.closeSideBar();
+        return closeSideBar();
       default:
         return null;
     }
@@ -91,6 +75,23 @@ class NavItem extends Component {
     );
   }
 }
+
+NavItem.propTypes = {
+  icon: PropTypes.any,
+  title: PropTypes.string,
+  subtitle: PropTypes.string,
+  classNamer: PropTypes.string,
+  link: PropTypes.any,
+  hasBadge: PropTypes.bool,
+  BadgeValue: PropTypes.number,
+  hasCliqued: PropTypes.bool,
+  openSideBar: PropTypes.func,
+  closeSideBar: PropTypes.func
+};
+
+NavItem.defaultProps = {
+  classNamer: "navbar-nav-link"
+};
 
 export default connect(
   null,

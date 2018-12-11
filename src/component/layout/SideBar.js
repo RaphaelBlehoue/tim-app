@@ -68,6 +68,62 @@ const SideBar = ({ isScroll }) => (
               </span>
             </a>
           </li>
+          <li className="nav-item nav-item-submenu">
+            <a href="/" className="nav-link">
+              <i className="icon-copy" /> <span>Layouts</span>
+            </a>
+
+            <ul className="nav nav-group-sub" data-submenu-title="Layouts">
+              <li className="nav-item">
+                <a href="index.html" className="nav-link active">
+                  Default layout
+                </a>
+              </li>
+              <li className="nav-item">
+                <a
+                  href="../../../../layout_2/LTR/default/full/index.html"
+                  className="nav-link"
+                >
+                  Layout 2
+                </a>
+              </li>
+              <li className="nav-item">
+                <a
+                  href="../../../../layout_3/LTR/default/full/index.html"
+                  className="nav-link"
+                >
+                  Layout 3
+                </a>
+              </li>
+              <li className="nav-item">
+                <a
+                  href="../../../../layout_4/LTR/default/full/index.html"
+                  className="nav-link"
+                >
+                  Layout 4
+                </a>
+              </li>
+              <li className="nav-item">
+                <a
+                  href="../../../../layout_5/LTR/default/full/index.html"
+                  className="nav-link"
+                >
+                  Layout 5
+                </a>
+              </li>
+              <li className="nav-item">
+                <a
+                  href="../../../../layout_6/LTR/default/full/index.html"
+                  className="nav-link disabled"
+                >
+                  Layout 6{" "}
+                  <span className="badge bg-transparent align-self-center ml-auto">
+                    Coming soon
+                  </span>
+                </a>
+              </li>
+            </ul>
+          </li>
         </ul>
       </div>
     </div>

@@ -78,6 +78,7 @@ const App = () => (
                 Title="Carousel"
                 dataTitle="Best Carousel"
                 isCarousel
+                hasBanner
               />
             </div>
           </div>

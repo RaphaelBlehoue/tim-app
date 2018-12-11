@@ -13,7 +13,7 @@ const ProductComponent = ({ product, ClassNamer, isCarousel }) => (
 
             <a href="/" className="add-to-cart">
               <i className="ti-shopping-cart" />
-              <span>ADD TO CART</span>
+              <span>Commander</span>
             </a>
           </div>
 
@@ -45,7 +45,7 @@ const ProductComponent = ({ product, ClassNamer, isCarousel }) => (
 
             <a href="/" className="add-to-cart">
               <i className="ti-shopping-cart" />
-              <span>ADD TO CART</span>
+              <span>Commander</span>
             </a>
           </div>
 
